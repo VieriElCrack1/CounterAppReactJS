@@ -2,9 +2,10 @@ import React from 'react'
 import ReactDOM from 'react-dom/client';
 import { FirstApp } from './FirstApp';
 import './styles.css';
+import CounterApp from './CounterApp';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <FirstApp title='Hola, Soy Vieri' subTitle={ 1 }/>
+        <CounterApp value={ 100 + 100 } />
     </React.StrictMode>
 );
